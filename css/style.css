@@ -11,7 +11,7 @@ body{
 	padding: 0 60px;
 }
 
-/*============================HEADER==================================*/
+/*============================ HEADER ==================================*/
 #wrapper #header .top{
 	height: 130px;
 }
@@ -42,5 +42,75 @@ body{
 
 #wrapper #header .menu{
 	background-color: yellow;
-	height: 200px;
+}
+
+/*============================ MENU ==================================*/
+#wrapper #header .menu{
+	background: url(../images/menu-left.jpg) left top no-repeat;
+}
+
+#wrapper #header .menu .right {
+	background: url(../images/menu-right.jpg) right top no-repeat;
+}
+
+#wrapper #header .menu .right .content {
+	background: url(../images/menu-content.jpg) left top repeat-x;
+	height: 46px;
+	margin: 0 12px;
+}
+
+#wrapper #header .menu ul{
+	position: relative;
+}
+
+#wrapper #header .menu ul li{
+	float: left;
+}
+
+#wrapper #header .menu ul li a{
+	display: block;
+	padding: 0px 22px;
+	line-height: 46px;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: arial;
+	color: #000043;
+	text-transform: uppercase;
+}
+
+#wrapper #header .menu ul li a:hover{
+	color: #363;
+	text-decoration: underline;
+}
+
+#wrapper #header .menu ul li.cart{
+	position: absolute;
+	top: 0px;
+	right: 25px;
+}
+
+#wrapper #header .menu ul li.cart span{
+	font-weight: bold;
+}
+
+#wrapper #header .menu ul li.cart a{
+	display: inline;
+	padding: 0px;
+	font-size: 12px;
+	line-height: 46px;
+	font-family: arial;
+	color: #7bb183;
+}
+
+#wrapper #header .menu ul li.cart a:hover{
+	color: #000;
+	font-weight: bold;
+}
+
+
+/*============================ LINE ==================================*/
+.line-w-45{
+	width: 1px;
+	height: 46px;
+	background-color: #d2d2d2;
 }
