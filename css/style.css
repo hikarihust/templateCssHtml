@@ -1,0 +1,46 @@
+body{
+	background: url(../images/background-body.jpg) left top repeat;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+
+#wrapper{
+	background: url(../images/background.jpg) left top repeat;
+	width: 940px;
+	height: 1000px;
+	margin: 0px auto;
+	padding: 0 60px;
+}
+
+/*============================HEADER==================================*/
+#wrapper #header .top{
+	height: 130px;
+}
+
+#wrapper #header .top .logo{
+	margin-left: 17px;
+	float: left;
+	height: 130px;
+	line-height: 130px;
+}
+
+#wrapper #header .top .logo img{
+	vertical-align: middle;
+}
+
+#wrapper #header .top .currency{
+	float: right;
+	margin: 83px 0px 27px 0px;
+}
+
+#wrapper #header .top .currency > span{
+	font-weight: bold;
+}
+
+#wrapper #header .top .currency > select{
+
+}
+
+#wrapper #header .menu{
+	background-color: yellow;
+	height: 200px;
+}
