@@ -6,9 +6,9 @@ body{
 #wrapper{
 	background: url(../images/background.jpg) left top repeat;
 	width: 940px;
-	height: 1000px;
 	margin: 0px auto;
 	padding: 0 60px;
+	padding-bottom: 10px;
 }
 
 /*============================ HEADER ==================================*/
@@ -165,6 +165,45 @@ body{
 	opacity: 0.6;
 }
 
+/*=========================== Special box ===============================*/
+#wrapper .main .left #box-special .content {
+}
+
+#wrapper .main .left #box-special .content .special-product{
+	height: 121px;
+	border-bottom: 1px solid #d2d2d2;
+}
+
+#wrapper .main .left #box-special .content .special-product .img{
+	height: 121px;
+	line-height: 121px;
+	float: left;
+	width: 80px;
+}
+
+#wrapper .main .left #box-special .content .special-product .img img{
+	vertical-align: middle;
+}
+
+#wrapper .main .left #box-special .content .special-product .info{
+	float: right;	
+	width: 114px;
+	padding: 27px 0px;
+}
+
+#wrapper .main .left #box-special .content .special-product .info p{
+	margin-bottom: 27px;
+}
+
+#wrapper .main .left #box-special .content .special-product .info span{
+	font-weight: bold;
+}
+
+/*============================ CONTENT - RIGHT ==================================*/
+#wrapper .main .right .slide{
+	height: 386px;
+}
+
 /*============================ BOX ==================================*/
 
 .box{
@@ -221,4 +260,18 @@ body{
 	width: 1px;
 	height: 46px;
 	background-color: #d2d2d2;
+}
+
+.line-h-220{
+	width: 220px;
+	height: 1px;
+	background-color: #d2d2d2;
+	margin: 30px 0px;
+}
+
+.line-h-700{
+	width: 700px;
+	height: 1px;
+	background-color: #d2d2d2;
+	margin: 30px 0px;
 }
