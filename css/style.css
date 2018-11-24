@@ -107,6 +107,114 @@ body{
 	font-weight: bold;
 }
 
+/*============================ CONTENT - MAIN ==================================*/
+#wrapper .main{
+	margin-top: 18px;
+}
+
+#wrapper .main .left{
+	width: 220px;
+	float: left;
+}
+
+#wrapper .main .right{
+	width: 700px;
+	float: right;
+}
+
+/*============================ CONTENT - LEFT ==================================*/
+
+#wrapper .main .left #box-login{
+	margin-bottom: 18px;
+}
+
+#wrapper .main .left #box-login .content{
+    height: 240px;
+    min-height: 240px;
+}
+
+#wrapper .main .left #box-login .content .row{
+	margin-bottom: 16px;
+}
+
+#wrapper .main .left .box .content .row a{
+    color: #7c7c7c;
+}
+
+#wrapper .main .left .box .content .row a:hover{
+    text-decoration: underline;
+}
+
+#wrapper .main .left #box-search .content{
+    height: 80px;
+    min-height: 80px;
+}
+
+#box-search #search-form .row span.button span{
+	position: relative;
+}
+
+#box-search #search-form .row span.button span img{
+	position: absolute;
+	top: 5px;
+	right: 6px;
+}
+
+#box-search #search-form .row span.button span img:hover{
+	cursor: pointer;
+	opacity: 0.6;
+}
+
+/*============================ BOX ==================================*/
+
+.box{
+    font: 12px Arial, Helvetica, sans-serif;
+    text-align: justify;
+}             
+
+.box .title{
+	height: 43px;
+	line-height: 43px;
+	font-size: 18px;
+}
+
+.box .header{
+    background: url(../images/box-tl.png) left top no-repeat;
+    
+}
+.box .header .tr{
+    background: url(../images/box-tr.png) right top no-repeat;
+}
+.box .header .tc{
+    background-color: #fff;
+    height: 12px;
+    margin: 0 12px;
+    border-top: 1px solid #e1e1e1;
+}
+
+.box .content{
+    background-color: #fff;
+    padding: 0 12px;
+    margin: -1px 0px;
+    border: 1px solid #e1e1e1;
+    border-width: 0px 1px;
+
+}
+
+.box .footer{	
+    background: url(../images/box-bl.png) left bottom no-repeat;
+}
+
+.box .footer .br{
+    background: url(../images/box-br.png) right bottom no-repeat;
+}
+
+.box .footer .bc{
+    background-color: #fff;
+    height: 12px;
+    margin: 0 12px;
+    border-bottom: 1px solid #e1e1e1;
+}
 
 /*============================ LINE ==================================*/
 .line-w-45{
