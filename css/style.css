@@ -1,3 +1,6 @@
+
+@import url("about.css"); 
+
 body{
 	background: url(../images/background-body.jpg) left top repeat;
 	font: 12px Arial, Helvetica, sans-serif;
