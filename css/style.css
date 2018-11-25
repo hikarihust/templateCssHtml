@@ -120,6 +120,8 @@ body{
 
 /*============================ CONTENT - LEFT ==================================*/
 
+/*---------------------------- Box Login --------------------------------*/
+
 #wrapper .main .left #box-login{
 	margin-bottom: 18px;
 }
@@ -141,6 +143,7 @@ body{
     text-decoration: underline;
 }
 
+/*-------------------------- Box Search -------------------------*/
 #wrapper .main .left #box-search .content{
     height: 80px;
     min-height: 80px;
@@ -161,7 +164,7 @@ body{
 	opacity: 0.6;
 }
 
-/*=========================== Special box ===============================*/
+/*------------------------------- Special box ---------------------------------*/
 #wrapper .main .left #box-special .content {}
 
 #wrapper .main .left #box-special .content .special-product{
@@ -276,26 +279,26 @@ body{
 	height: 500px;
 }
 
-#wrapper .main .right .col2 #box-category{}
+/*-------------------------- Category -------------------------------*/
 
-#wrapper .main .right .col2 #box-category .content{}
+.box-circle-category .content{}
 
-#wrapper .main .right .col2 #box-category .content ul{}
+.box-circle-category .content ul{}
 
-#wrapper .main .right .col2 #box-category .content ul li{
+.box-circle-category .content ul li{
 	border-bottom: 1px solid #d2d2d2;
 	padding: 3px;
 }
 
-#wrapper .main .right .col2 #box-category .content ul li.active {
+.box-circle-category .content ul li.active {
 	background: url(../images/arrow.png) right center no-repeat;
 }
 
-#wrapper .main .right .col2 #box-category .content ul li a{
+.box-circle-category .content ul li a{
 	color: #2a0055;
 }
 
-#wrapper .main .right .col2 #box-category .content ul li a:hover{
+.box-circle-category .content ul li a:hover{
 	color: #00c;
 }
 
@@ -306,6 +309,8 @@ body{
 }
 
 /*============================ FOOTER ==================================*/
+
+/*----------------------- Box Slide -----------------------------*/
 #wrapper #footer .slide #box-slide {
 	margin-top: 25px;
 	position: relative;
@@ -379,7 +384,7 @@ body{
 	text-decoration: underline;
 }
 
-/*=========================== copyright ==============================*/
+/*-------------------------- copyright -----------------------------*/
 #wrapper #footer .copyright{
 	position: relative;
 }
@@ -413,6 +418,86 @@ body{
 	color: #fff;
 	font-size: 16px;
 }
+
+/*============================ CATEGORY PAGE =========================*/
+
+/*======================== Breadcrumb =========================*/
+
+#box-breadcrumb{
+	margin-bottom: 20px;
+}
+
+#box-breadcrumb .content a{
+	color: #447f60;
+}
+
+#box-breadcrumb .content a:hover{
+	text-decoration: underline;
+}
+
+#box-breadcrumb .content a.active{
+	text-decoration: underline;
+	color: #2a002a;
+}
+
+/*======================== Categories =========================*/
+
+
+
+/*=================== Category (w: 160px, h:206px) ================*/
+#box-categories .box-category{
+	width: 160px;
+	min-width: 160px;
+	float: left;
+	margin-right: 8px;
+}
+
+#box-categories .box-category .content {
+	height: 182px;
+	min-height: 182px;
+	position: relative;
+}
+
+#box-categories .box-category .content div.image{
+	position: absolute;
+	height: 154px ;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	line-height: 154px;
+	text-align: center;
+}
+
+#box-categories .box-category .content div.image a{
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+#box-categories .box-category .content div.image a img{
+	vertical-align: middle;
+}
+
+#box-categories .box-category .content p.title {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 28px;
+	font-size: 13px;
+	border-top: 1px solid #d2d2d2;
+	text-align: center;
+}
+
+#box-categories .box-category .content p.title a{
+	color: #3f3f5f;
+}
+
+#box-categories .box-category .content p.title a:hover{
+	color: #00f;
+	text-decoration: underline;
+}
+
 /*============================ BOX ==================================*/
 
 .box{
@@ -469,6 +554,12 @@ body{
 	width: 1px;
 	height: 46px;
 	background-color: #d2d2d2;
+}
+
+.line-w-full{
+	height: 1px;
+	background-color: #d2d2d2;
+	margin: 10px 0px;
 }
 
 .line-h-220{
