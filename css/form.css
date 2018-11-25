@@ -52,21 +52,24 @@
 }
 
 #box-login #login-form .row span.button span, #box-search #search-form .row span.button span{
-	display: inline-block;
+	display: block;
+	width: 178px;
 	background: url(../images/bg-text-r.gif) right top no-repeat;
 	height: 27px;
 	line-height: 27px;
 }
 
 #box-login #login-form .row span.button span input, #box-search #search-form .row span.button span input{
+	display: block;
 	border:none;
+	width: 168px;
 	background: url(../images/bg-text-c.gif) left top repeat-x;
 	height: 27px;
 	line-height: 27px;
 	margin: 0px 6px;
+	margin-left: 5px;
 	outline: none;
 	*margin-top: -1px;
 	font-size: 10px;
 	color: #a1b4da;
-	width: 166px;
 }
