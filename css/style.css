@@ -1,6 +1,7 @@
 
 @import url("about.css"); 
 @import url("faq.css"); 
+@import url("contact.css"); 
 
 body{
 	background: url(../images/background-body.jpg) left top repeat;
@@ -78,7 +79,7 @@ body{
 	text-transform: uppercase;
 }
 
-#wrapper #header .menu ul li a:hover{
+#wrapper #header .menu ul li a:hover, #wrapper #header .menu ul li a.current{
 	color: #363;
 	text-decoration: underline;
 }

@@ -73,3 +73,89 @@
 	font-size: 10px;
 	color: #a1b4da;
 }
+
+/* ================================== INPUT - CONTACT FORM ================================= */
+.area-contact #form #contact-form .row span.button{
+	display: block;
+	background: url(../images/bg-text-l.gif) left top no-repeat;
+	height: 27px;
+	line-height: 27px;
+}
+
+.area-contact #form #contact-form .row span.button span{
+	display: block;
+	width: 376px;
+	background: url(../images/bg-text-r.gif) right top no-repeat;
+	height: 27px;
+	line-height: 27px;
+}
+
+.area-contact #form #contact-form .row span.button span input{
+	display: block;
+	border:none;
+	width: 365px;
+	background: url(../images/bg-text-c.gif) left top repeat-x;
+	height: 27px;
+	line-height: 27px;
+	margin: 0px 6px;
+	margin-left: 5px;
+	outline: none;
+	*margin-top: -1px;
+	font-size: 12px;
+	color: #000;
+}
+
+
+/* ================================== TEXTAREA - CONTACT FORM ================================= */
+.area-contact #form #contact-form .row span.textarea{
+	display: block;
+	background: url(../images/contact-page/bg-text-l.png) left top no-repeat;
+	height: 173px;
+}
+
+.area-contact #form #contact-form .row span.textarea span{
+	display: block;
+	width: 376px;
+	background: url(../images/contact-page/bg-text-r.png) right top no-repeat;
+	height: 173px;
+}
+
+.area-contact #form #contact-form .row span.textarea span textarea{
+	display: block;
+	border:none;
+	width: 357px;
+	background: url(../images/contact-page/bg-text-c.png) left top repeat-x;
+	margin: 0px 6px;
+	margin-left: 5px;
+	outline: none;
+	*margin-top: -1px;
+	font-size: 12px;
+	color: #000;
+	height: 173px;
+	resize: none;
+	overflow: hidden;
+	padding: 5px;
+}
+
+/* ================================== BUTTON - SEND EMAIL ================================= */
+
+.area-contact #form #contact-form .row .btn-link{
+    color: #fff;
+	height: 22px;
+	line-height: 22px;
+    background: url(../images/change-rbg.png) right top no-repeat;
+    padding-right: 7px;
+    display: inline-block;
+    text-align: center;
+}
+
+.area-contact #form #contact-form .row .btn-link span{
+	background: url(../images/change-lbg.png) left top no-repeat;
+	padding-left: 7px;	
+	display: block;
+	font-size: 12px;
+}
+
+.area-contact #form #contact-form .row .btn-link:hover{
+	color: #000;
+}
